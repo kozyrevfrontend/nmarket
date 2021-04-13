@@ -1,13 +1,20 @@
 .card {
   position: relative;
 
+  display: flex;
+  max-width: 1200px;
+  padding: 24px;
+
   background: $bg-card;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.84);
+
+  border-radius: 8px;
 }
 
 .card__button-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 16px;
+  right: 16px;
 
   width: 24px;
   height: 24px;
@@ -15,4 +22,13 @@
   svg {
     fill: $text-primary-light;
   }
+}
+
+.card__description {
+  flex-grow: 1;
+}
+
+.card__commerce {
+  width: 308px;
+  flex-shrink: 0;
 }
