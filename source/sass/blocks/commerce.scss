@@ -1,0 +1,36 @@
+.commerce__head {
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $text-primary-light;
+
+  span {
+    font-weight: 500;
+    color: $text-info;
+  }
+}
+
+.commerce__price {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: $text-primary;
+}
+
+.commerce__price-comparison {
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $text-primary-light;
+
+  span {
+    font-weight: 500;
+    color: $text-danger;
+  }
+}

@@ -1,0 +1,28 @@
+.description__title {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: $text-primary;
+}
+
+.description__list {
+  @include list-reset;
+}
+
+.description__item-title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $text-primary-light;
+}
+
+.description__item-value {
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: $text-primary;
+}
