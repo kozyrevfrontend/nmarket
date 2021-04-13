@@ -99,7 +99,6 @@
 @media (max-width: $tablet-width) {
   .description {
     padding-left: 3px;
-    margin-bottom: 25px;
   }
 
   .description__image {
@@ -109,5 +108,37 @@
 
   .description__list {
     width: 55.75%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .description {
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .description__image {
+    width: 100%;
+    margin: 0 0 22px 0;
+    padding: 0;
+  }
+
+  .description__title {
+    margin: 0 0 17px 0;
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .description__list {
+    width: 100%;
+  }
+
+  .description__item {
+    width: 45%;
+  }
+
+  .description__info-button {
+    flex-shrink: 1;
   }
 }

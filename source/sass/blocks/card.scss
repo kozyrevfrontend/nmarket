@@ -40,7 +40,21 @@
     padding: 24px 29px;
   }
 
+  .card__description {
+    margin-bottom: 25px;
+  }
+
   .card__commerce {
     width: 100%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .card {
+    padding: 24px 20px;
+  }
+
+  .card__description {
+    margin-bottom: 21px;
   }
 }

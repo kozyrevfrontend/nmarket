@@ -72,3 +72,24 @@
     border-top: 1px solid $border;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .commerce {
+    padding: 20px 0 0 0;
+  }
+
+  .commerce__wrapper {
+    margin-bottom: 15px;
+  }
+
+  .commerce__head {
+    margin: 0;
+  }
+
+  .commerce__price {
+    margin: 0 0 14px 0;
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
