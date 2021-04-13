@@ -15,7 +15,69 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-  <h1>Hello World</h1>
+  <article class="card">
+    <h1 class="visually-hidden">Объявление о продаже квартиры</h1>
+    <div class="description card__description">
+      <div class="description__wrapper">
+        <h2 class="description__title">2-к квартира</h2>
+        <ul class="description__list">
+          <li class="description__item">
+            <p class="description__item-title">Этаж</p>
+            <p class="description__item-value">3 из 19</p>
+          </li>
+          <li class="description__item">
+            <p class="description__item-title">Высота потолков</p>
+            <p class="description__item-value">3,2 м</p>
+          </li>
+          <li class="description__item">
+            <p class="description__item-title">Отделка</p>
+            <p class="description__item-value">Предчистовая</p>
+          </li>
+          <li class="description__item">
+            <p class="description__item-title">Общая площадь</p>
+            <p class="description__item-value">32,24 м<sup>2</sup></p>
+          </li>
+          <li class="description__item">
+            <p class="description__item-title">Жилая площадь</p>
+            <p class="description__item-value">22,24 м<sup>2</sup></p>
+          </li>
+          <li class="description__item">
+            <p class="description__item-title">Площадь кухни</p>
+            <p class="description__item-value">14,24 м<sup>2</sup></p>
+          </li>
+        </ul>
+        <div class="description__info">
+          <p сlass="description__info-item description__info-success">
+            <svg width="16" height="16"></svg>
+            <span>Вы были на просмотре</span>
+          </p>
+          <p сlass="description__info-item description__info-danger">
+            <svg width="16" height="16"></svg>
+            <span>Дом аккредитован другим банком</span>
+          </p>
+        </div>
+      </div>
+      <div class="description__image">
+        <picture>
+          <img width="86" height="160" src="" alt="2-к квартира">
+        </picture>
+      </div>
+    </div>
+    <div class="commerce card__commerce">
+      <div class="commerce__info">
+        <p class="commerce__head">Ваша цена по брони до <span>19 сентября</span></p>
+        <p class="commerce__price">3 312 666 Р</p>
+        <p class="commerce__price-comparison">Текущая цена у застройщика дороже на 324 825 Р</p>
+      </div>
+      <button class="commerce__order-button">
+        <svg width="16" height="16"></svg>
+        <span>Выбрать для покупки</span>
+      </button>
+    </div>
+    <button class="card__button-close" aria-label="Закрыть объявление">
+      <svg width="24" height="24"></svg>
+    </button>
+  </article>
   <script src="js/main.js"></script>
   </body>
 </html>
