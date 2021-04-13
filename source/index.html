@@ -47,19 +47,24 @@
           </li>
         </ul>
         <div class="description__info">
-          <p сlass="description__info-item description__info-success">
-            <svg width="16" height="16"></svg>
+          <button сlass="description__info-button description__info-button--success">
+            <svg width="12" height="9">
+              <use href="img/sprite_auto.svg#icon-check"></use>
+            </svg>
             <span>Вы были на просмотре</span>
-          </p>
-          <p сlass="description__info-item description__info-danger">
-            <svg width="16" height="16"></svg>
+          </button>
+          <button сlass="description__info-button description__info-button--danger">
+            <svg width="11" height="11">
+              <use href="img/sprite_auto.svg#icon-cross"></use>
+            </svg>
             <span>Дом аккредитован другим банком</span>
-          </p>
+          </button>
         </div>
       </div>
       <div class="description__image">
         <picture>
-          <img width="86" height="160" src="" alt="2-к квартира">
+          <source type="image/webp" srcset="img/flat@1x.webp 1x, img/flat@2x.webp 2x">
+          <img src="img/flat@1x.png" srcset="img/flat@2x.png 2x" width="86" height="160" alt="2-к квартира">
         </picture>
       </div>
     </div>
@@ -70,12 +75,16 @@
         <p class="commerce__price-comparison">Текущая цена у застройщика дороже на 324 825 Р</p>
       </div>
       <button class="commerce__order-button">
-        <svg width="16" height="16"></svg>
+        <svg width="13" height="13">
+          <use href="img/sprite_auto.svg#icon-key"></use>
+        </svg>
         <span>Выбрать для покупки</span>
       </button>
     </div>
     <button class="card__button-close" aria-label="Закрыть объявление">
-      <svg width="24" height="24"></svg>
+      <svg width="14" height="14">
+        <use href="img/sprite_auto.svg#icon-cross"></use>
+      </svg>
     </button>
   </article>
   <script src="js/main.js"></script>
