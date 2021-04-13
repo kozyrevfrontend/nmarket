@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sources":["source/js/main.js"],"sourcesContent":["const header = document.querySelector('h1');\nheader.style.color = 'red';\n"],"names":[],"mappings":";;;CAAA,MAAM,MAAM,GAAG,QAAQ,CAAC,aAAa,CAAC,IAAI,CAAC,CAAC;CAC5C,MAAM,CAAC,KAAK,CAAC,KAAK,GAAG,KAAK;;;;"}
+{"version":3,"file":"main.js","sources":["source/js/main.js"],"sourcesContent":["svg4everybody();\n"],"names":[],"mappings":";;;CAAA,aAAa,EAAE;;;;"}

@@ -110,12 +110,22 @@ gulp.task("js-main", () => {
   );
 });
 
+gulp.task("js-vendor", () => {
+  return (
+    gulp
+      .src("source/js/vendor.js")
+      .pipe(sourcemap.init())
+      .pipe(sourcemap.write(""))
+      .pipe(gulp.dest("build/js"))
+  );
+});
+
 gulp.task("clean", function () {
   return del("build");
 });
 
 gulp.task(
   "build",
-  gulp.series("clean", "copy", "css", "sprite", "html", "js-main")
+  gulp.series("clean", "copy", "css", "sprite", "html", "js-vendor", "js-main")
 );
 gulp.task("start", gulp.series("build", "server"));

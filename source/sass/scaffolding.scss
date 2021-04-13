@@ -10,13 +10,17 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 0;
+  padding: 22px 24px;
 
   font-family: "Roboto", "Arial", sans-serif;
 
   background-color: $bg-body;
 
   overflow-x: hidden;
+
+  @media (max-width: $desktop-md-width) {
+    padding: 22px 28px;
+  }
 }
 
 .overflow-hidden {
