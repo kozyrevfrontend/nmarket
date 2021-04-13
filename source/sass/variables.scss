@@ -1,4 +1,22 @@
-$tablet-width: 1023px;
+/* Colors */
+$bg-body: #e5e5e5;
+$bg-card: #ffffff;
+$bg-button-danger: #faf0f0;
+$bg-button-primary: #fac62d;
+$bg-button-primary-hover: #f0b505;
+$bg-button-primary-active: #e1ab08;
+$bg-button-success: #f2faf0;
+$text-primary: #383736;
+$text-primary-light: #989691;
+$text-success: #64b851;
+$text-danger: #eb4b51;
+$text-info: #2794db;
+$border: #f0eeeb;
+
+/* Width */
+$desktop-md-width: 1279px;
+$tablet-width: 919px;
 $mobile-width: 767px;
 
+/* Resolution */
 $retina-dppx: 1.5dppx;
