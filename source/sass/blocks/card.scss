@@ -33,3 +33,14 @@
   width: 308px;
   flex-shrink: 0;
 }
+
+@media (max-width: $tablet-width) {
+  .card {
+    flex-direction: column;
+    padding: 24px 29px;
+  }
+
+  .card__commerce {
+    width: 100%;
+  }
+}
