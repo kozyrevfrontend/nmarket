@@ -26,3 +26,18 @@
   line-height: 20px;
   color: $text-primary;
 }
+
+.description__info-button {
+  min-height: 32px;
+  padding: 0 16px 0 14px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+
+  border-radius: 22px;
+
+  svg {
+    margin-right: 10px;
+  }
+}

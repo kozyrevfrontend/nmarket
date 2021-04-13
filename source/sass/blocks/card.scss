@@ -1,3 +1,18 @@
 .card {
+  position: relative;
+
   background: $bg-card;
+}
+
+.card__button-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 24px;
+  height: 24px;
+
+  svg {
+    fill: $text-primary-light;
+  }
 }

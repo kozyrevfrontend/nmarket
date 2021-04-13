@@ -1,0 +1,63 @@
+.button {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+
+  border: none;
+
+  cursor: pointer;
+
+  &--success {
+    color: $text-success;
+
+    background-color: $bg-button-success;
+
+    &:hover,
+    &:focus {
+      background-color: darken($bg-button-success, 5%);
+    }
+
+    &:active {
+      background-color: darken($bg-button-success, 10%);
+    }
+  }
+
+  &--danger {
+    color: $text-danger;
+
+    background-color: $bg-button-danger;
+
+    svg {
+      fill: $text-danger;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: darken($bg-button-danger, 5%);
+    }
+
+    &:active {
+      background-color: darken($bg-button-danger, 10%);
+    }
+  }
+
+  &--primary {
+    color: $text-primary;
+
+    background-color: $bg-button-primary;
+
+    &:hover,
+    &:focus {
+      background-color: $bg-button-primary-hover;
+    }
+
+    &:active {
+      background-color: $bg-button-primary-active;
+    }
+  }
+}
