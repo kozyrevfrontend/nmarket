@@ -14,14 +14,25 @@
 
 .card__button-close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 14px;
+  right: 14px;
 
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+
+  border-radius: 4px;
 
   svg {
     fill: $text-primary-light;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $bg-button-light-hover;
+  }
+
+  &:active {
+    background-color: $bg-button-light-active;
   }
 }
 
